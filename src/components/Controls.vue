@@ -28,21 +28,23 @@
   }
 
   .controls {
-    width: 800px;
-    max-width: 90%;
     justify-content: space-around;
     margin-top: 1rem;
+    max-width: 90%;
+    width: 800px;
   }
 
   button {
     border: 1px solid;
-    padding: .5em 1em;
-    margin: 5px;
     border-radius: 5px;
+    margin: 5px;
+    padding: .5em 1em;
   }
+
   button:hover {
     color: #F8492A;
   }
+
   button:focus {
     outline: none;
   }

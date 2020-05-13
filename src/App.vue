@@ -11,7 +11,7 @@
 
   export default {
     name: 'App',
-    components: { Controls, Scoreboard},
+    components: { Controls, Scoreboard },
     mounted() {
       this.timer = this.$nextTick(() => {
         setInterval(this.incrementTime, 1000);
@@ -24,7 +24,7 @@
       return {
         score: { home: 32, guest: 3 },
         time: { minute: 0, second: 3 }
-      }
+      };
     },
     methods: {
       incrementScore(team, amount) {
@@ -44,16 +44,16 @@
   @import "preflight.css";
 
   body {
-    font-family: monospace;
     background-color: black;
     color: #F6F6F6;
+    font-family: monospace;
   }
 
   #app {
-    min-height: 100vh;
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    min-height: 100vh;
   }
 </style>

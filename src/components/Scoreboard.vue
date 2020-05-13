@@ -64,9 +64,9 @@
 
 <style scoped>
   .border {
-    width: 800px;
     max-width: 95%;
     padding: .5rem;
+    width: 800px;
   }
 
   .border, .scoreboard {
